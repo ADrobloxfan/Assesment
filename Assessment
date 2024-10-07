@@ -1,0 +1,41 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+
+    // Double blocker
+
+    public static void main(String[] args) {
+
+
+        //int
+        int randomNumber = 5;
+        //string
+        String randomPerson = "Charlie";
+        //Boolean
+        boolean randomTrueOrFalse = true;
+        //float
+        float randomDecimal = 5.5f;
+        //char
+        char randomLetter = 'o';
+        //double
+        double randomDub = 3.14;
+
+
+        System.out.println(randomNumber);
+        System.out.println(randomPerson);
+        System.out.println(randomTrueOrFalse);
+        System.out.println(randomDecimal);
+        System.out.println(randomLetter);
+        System.out.println(randomDub);
+
+        String[] cars = {"Tesla","Lexus","Lambo"};
+       for (int i = 0; i<=2; i++){
+        System.out.println(cars[i]);
+       }
+
+
+    }
+
+
+
+}
